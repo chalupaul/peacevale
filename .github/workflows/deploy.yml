@@ -38,11 +38,11 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - name: yarn install
-        run: yarn install
-        # if: steps.yarn-cache.outputs.cache-hit != 'true'
       - name: yarn build
         run: yarn build
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+      - name: yarn install
+        run: yarn install
       - name: deploy site cache
         run: aws s3 sync --cache-control 'max-age=604800' --exclude index.html build/ s3://peacevaleweb/
       - name: deploy site
