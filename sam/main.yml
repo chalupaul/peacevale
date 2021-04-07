@@ -36,8 +36,6 @@ Resources:
         Enabled: true
         HttpVersion: http2
         DefaultRootObject: index.html
-        Aliases:
-          - peacevale.chalupaul.com
         DefaultCacheBehavior:
           AllowedMethods:
             - GET
