@@ -22,10 +22,11 @@ jobs:
         run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
       - name: Read .nvmrc
         run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+        id: nvmrc
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: ${NVMRC}
+          node-version: "${{ steps.nvmrc.outputs.NVMRC }}"
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
