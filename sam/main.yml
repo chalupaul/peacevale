@@ -22,7 +22,8 @@ Resources:
   CloudFCrontDistro:
     Type: AWS::CloudFront::Distribution
     DependsOn:
-      - WebsiteBucket
+      - S3Bucket
+      - S3BucketPolicy
     Properties:
       DistributionConfig:
         Origins:
