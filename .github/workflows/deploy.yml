@@ -40,7 +40,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: yarn install
         run: yarn install
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        # if: steps.yarn-cache.outputs.cache-hit != 'true'
       - name: yarn build
         run: yarn build
       - name: deploy site cache
