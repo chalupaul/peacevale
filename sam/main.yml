@@ -19,3 +19,32 @@ Resources:
               - S3:GetObject
             Principal: "*"
             Resource: "arn:aws:s3:::peacevaleweb/*"
+  CloudFCrontDistro:
+    Type: AWS::CloudFront::Distribution
+    DependsOn:
+      - WebsiteBucket
+    Properties:
+      DistributionConfig:
+        Origins:
+          - DomainName: !Select [2, !Split ["/", !GetAtt S3Bucket.WebsiteURL]]
+            Id: S3Origin
+            CustomOriginConfig:
+              HTTPPort: '80'
+              HTTPSPort: '443'
+              OriginProtocolPolicy: http-only
+          Enabled: true
+          HttpVersion: 'http2'
+          DefaultrRootObject: index.html
+          Aliases:
+            - peacevale.chalupaul.com
+          DefaultCacheBehavior:
+            AllowedMethods:
+              - GET
+              - HEAD
+            Compress: true
+            TargetOriginId: S3Origin
+            ForwardedValues:
+              QueryString: true
+              Cookies:
+                Forward: none
+            PriceClass: PriceClass_All
