@@ -48,4 +48,3 @@ Resources:
             QueryString: true
             Cookies:
               Forward: none
-          PriceClass: PriceClass_All
