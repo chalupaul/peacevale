@@ -1,0 +1,21 @@
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+  S3BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket:
+        Ref: S3Bucket
+      PolicyDocument:
+        Statement:
+        - Effect: Allow
+          Action:
+          - S3:GetObject
+          Principal: '*'
+          Resource:
+            Fn::Sub: arn:aws:s3:::${S3Bucket}/*
