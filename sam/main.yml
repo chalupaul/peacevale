@@ -5,6 +5,7 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       AccessControl: PublicRead
+      BucketName: peacevaleweb
       WebsiteConfiguration:
         IndexDocument: index.html
   S3BucketPolicy:
@@ -17,4 +18,4 @@ Resources:
             Action:
               - S3:GetObject
             Principal: "*"
-            Resource: !Sub "arn:aws:s3:::${S3Bucket}/*"
+            Resource: "arn:aws:s3:::peacevaleweb/*"
