@@ -48,3 +48,4 @@ Resources:
             QueryString: true
             Cookies:
               Forward: none
+          ViewerProtocolPolicy: allow-all
