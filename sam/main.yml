@@ -19,7 +19,7 @@ Resources:
               - S3:GetObject
             Principal: "*"
             Resource: "arn:aws:s3:::peacevaleweb/*"
-  CloudFCrontDistro:
+  CloudFrontDistro:
     Type: AWS::CloudFront::Distribution
     DependsOn:
       - S3Bucket
@@ -34,8 +34,8 @@ Resources:
               HTTPSPort: '443'
               OriginProtocolPolicy: http-only
         Enabled: true
-        HttpVersion: 'http2'
-        DefaultrRootObject: index.html
+        HttpVersion: http2
+        DefaultRootObject: index.html
         Aliases:
           - peacevale.chalupaul.com
         DefaultCacheBehavior:
