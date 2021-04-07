@@ -1,0 +1,169 @@
+relics:
+  - name: Parasol Shield
+    desc: Can fight with it as though it was a Cane Sword. When you are attacked, you can choose to extend the parasol, granting you 2 Defense until you either set down the Parasol or spend an action to fold it back. You cannot fight with a Parasol Shiled while it is extended.
+  - name: Grappling Belt
+    desc: Pick a square that is visible to you within 10 squares and does not have any creature in it. Immediately move your character to that square.
+  - name: Spider Trap
+    desc: YPou gain 3 tokens, one of which represents a trap and the other 2 are decoys. The real trap is a small autonomous spider that attacks the first creature to step on the square it is in, stunning the creature for the rest of the round and makingf the creature Stuck. The creature can spend an action to succeed on a Might roll against half your maximum Mind attribute roll to free itself. You may deploy your tokens when you roll for Initiative to an unoccupied squares within 10 squares of your character. Interacting with a decoy reveals it as false or true, and you can at any time choose which one is real. Once a decoy is revealed it is destroyed.
+  - name: Steam Power Glove
+    desc: "A weapon attack that has the following profile. 5-6: Attack. Steam. Attacks deal grievous wounds. This weapon can be used by mech suits."
+  - name: Chameleon Cloak
+    desc: As an Action, you can don the coat, Hostile actions cannot target you other than those originating from adjacent enemies. If you take a hostile action, the cloak reveals your location.
+  - name: Aethercrystal Phase Propagator
+    desc: When you take a Movement action using an action pool die of 5+, you can walk through any solid object so long as you can completely exit. F ailure to completly exit the solid object(s) within 1 movement immediately kills you.
+  - name: Aether Portal Gun
+    desc: As a special action using an action pool die of 5+, you can move a hostile enemy or willing friendly creature within 10 squares to any unoccupied square within 10 squares of its original location.
+  - name: Inferno Mines
+    desc: Two small whirly bird drones fire off and go to any 2 adjacent squares within 10 squares of you. Any creatuer entering one of those squares will trigger the mines. You will make an Mind roll against half their maximum Speed die roll. If you succeed, they take 1 wound and are hurt (Fire).
+  - name: Aetherweb Jumpsuit
+    desc: A suit of thin transparent webbing that is worn next to the skin that can repair some injuries. Whenever you take wounds that would kill you, they are ignored. This can only happen once per adventure.
+  - name: Abyssal Pocketwatch
+    desc: This is an old barnacle encrusted pocketwatch recovered from a shipwreck. When the wearer windsn the watch with an Action, they become invisible for the rest of the round.
+  - name: Bandolier of Blades
+    desc: The wearer can produce an infinite amount of Dirks. Once the blade impacts an object, it dissolves into dust with a faint smell of flowers.
+  - name: Anchoring Bolas
+    desc: These are Bolas that when wrapped around an enemy grow long aether filaments deep into the earth, effectively permanently attaching the target to the ground where they lay. The one who threw the bolas can spend an action to withdraw the bolas, freeing the target from both the bolas themselves and fereing the bolas from their tether.
+  - name: Clockwork Wingfoil
+    desc: A leather and brass backpack with a ripcord. Pulling on this cord ejects a pair of wings, allowing the user to glide. The structural parts of the wings are made from thin Aether bone, allowing them to slowly expand to many times their original size. On the round with which they are pulled, the wearer will not die from fall damage (though damage may certainly occur). On the second round, they will no longer take any fall damage, and by the third round they may glide while descending at a rate of 2 squares per round.
+  - name: Mirror of the 8 Eyed Beast
+    desc: A small mirror with eight eyes on the back. The mirror reflects the true form of things. Any illusory form dissipates in the reflection.
+  - name: Chapeau of Deflection
+    desc: When this tophat is worn, you benefit from cover from all ranged attacks against you.
+  - name: Charged Ring
+    desc: A small ring with a piece of polished aethercrystal inset in it. This ring adds charges whenever you take wounds. After 3 wounds, your next attack applies Shocked to your target and the ring discharges all charges.
+  - name: Aether Spectrometer
+    desc: A glowing bulb connected to a small device and another cable leading to a metal fork. The metal fork can be touched to the ground or rocks and find location of any portal within 20 squares.
+  - name: Lenses of the Bat
+    desc: You can see under any condition.
+  - name: Inspector's Monacle
+    desc: Twisting the metal band around the monacle lets the wearer see objects many times closer than they are and details on close up objects are many times greater seen than normal.
+  - name: Autokamp
+    desc: A small box that when pressed unfolds into a thick walled canvas tent that sleeps 8 comfortably with a small wood burning stove inside.
+  - name: KeepSafe RuckSack
+    desc: Any item placed in the rucksack is undamaged regardless of outside occurances. 
+  - name: Bitter Boots
+    desc: If swallowed by a creature, you can make a special action to click your heels together. You will roll Intelligence against half the target's Might. If successful, the foul taste coming off your boots is too much for the creature and it immediately expels you.
+  - name: Dragonsword
+    desc: "A finely crafted sword with an aetherbone sculpted dragon on the hilt. This sword functions as a Cutlass that you can additionally choose the following action: 6: AOE. Roll Mind compared against half of target's maximum speed roll. All creatures within 3 squares of your front facing take a wound and are inflicted by hurt (Fire)."
+  - name: Folding Bicycle
+    desc: A small neclace with a blue button in the center. If pressed and held for 3 seconds, the neclace begins to unfold impossibly larger than it is and takes the form of a tandem bicycle.
+  - name: Snowglobe Sancuary
+    desc: A small ornate snow globe with a cozy cottage nestled in a wintery forest scene. On the bottom is a winding mechanism similar to a music box. Once wound and shaken, all creatures within 6 squares of your choosing are instantly moved to the location on the inside of the snowglobe. You'll find a comfortabel home well stocked with food and firewood. The forest around is verdant and filled with animal life and odd standing stones with unfamiliar runes on them. A stone door in the cellar allows you to instantly return to the real world. Time in the globe passes differently than outside, in ways that are somewhat unpredictable but it is based on how many times the crank has been turned. The longer you stay in the orb, the worse the weather gets until eventually the building collapses and you must face the elements and perish or leave.
+  - name: Lightning Baton
+    desc: A Baton that inflicts Shocked on every attack if the target is successfully hit.
+  - name: Bee Swarm Rockets
+    desc: A small firework device that can be aimed and fired towards a target as though it was Thrown 2/6.  A swarm of mechanical bees explodes from the point of impact attacking the closest creature for 3 rounds. They can move 8 squares and have a d6 Might.
+  - name: Disintegration Ray
+    desc: "A two-handed weapon that allows you to attack with the following profile: 6: Range 4/10. AOE. All creatures in a straight line between the user and the target (that are also within range) are dealt Grievous wounds by the attack. If they die from the attack, their are incinerated."
+  - name: Thundermonger
+    desc: A fashionable trenchtoat with a silvery material sown into the fabric. You are immune to attacks that deal Shocked. If you are attacked by such an effect, you gain an additional Attribute die on your next Action that uses a roll.
+  - name: Coiled Two Way Radio
+    desc: A pair of small devices the size of a book allows you to communicate audibly between the two.
+  - name: Effigy of the Cosmic Eye
+    desc: A wooden box with a brass eye inside. When you open the box, the eye will watch for motion, emitting a terrifying screech sound until the box is closed.
+  - name: Barricade
+    desc: This is a shield that grants +2 defense. When you place it on the ground it will grow a wall of aetherbone in a shape up to 4 squares. This can be any shape you wish, so long as the squares are adjacent. You can also specify the height of each square up to 4 squares high.
+  - name: Prismatic Scope
+    desc: When attached to a two-handed ranged weapon that shoots bullets, you can change your facing by 90 degrees and bypass cover on the target when you fire.
+  - name: Armor of Screening
+    desc: A resonant crystal embedded in the armor grants +2 Defense against effects that cause Terrified.
+  - name: Redirecting Chain Whip
+    desc: A Chain Whip that allows you to transfer any attack to another creature within 6 squares. You attack your target as normal, and you may choose to apply the damage to another creature.
+  - name: Pipegun of Infinite Flares
+    desc: This rod with a trigger ejects a signal flare you can shoot upwards or outwards up to 6 squares. It remains visible for the rest of the round.
+  - name: Inscriptus Arcanum
+    desc: This allows you to record and chant rituals. You begin with 1 ritual, titled Call the Darkness. Three or more participants must spend a total of 16 actions. At the beginning of the next round, a dark rift impossibly black opens up in the circle. Players may speak outloud to any creature who happens to be on the other side listening. You can collect rituals from various cult leaders should they have them. Be warned that there are lasting effets from using these dark rituals.
+  - name: Axe of the Sea Reavers
+    desc: You can choose to float on top of water if you wish. You can make a special Action while holding this weapon to grant you an additional Attribute die on any roll targeting a human, combat or otherwise. This effect lasts for the rest of the round.
+  - name: Amulet of Incarnum Shielding
+    desc: For 1 round you are immune to sanity loss. You can choose to use this after sanity damage is told to you, but before you apply it. This effect can only be used once per adventure.
+  - name: Ring of Inviolate Form
+    desc: You cannot have your form or body altered while wearing this ring.
+  - name: Legbraces of Elusive Speed
+    desc: A harness that can strap to your legs. You can choose to store up to 2 Action Dice in this armband for later use. You spend them as Actions, placing the dice aside. 
+  - name: Timespeed Boots
+    desc: As a special Action, you can tighten the boot laces and for the next two rounds you move so fast it is as if the world is at standstill. You can see bullets slowly moving from gun barrels, and birds hung in midair. You can take the remainder of this round and all of next round immediately.
+  - name: Antennae of Blast Barrier
+    desc: Two small thelescoping coiled copper rods attached to a platform fit into a bracer. When both antennae are placed on the ground, an invisible barrier spans between them in a straight line that blocks area of effect damage. The stones must be no further than 6 squares apart, and the barrier is as high as it is wide.
+  - name: Cat's Belt
+    desc: A weighted belt that spins you around in midair, making you unable to be knocked off your feet. If you are thrown into the air, you will land on your feet. This doesn't affect grapples or if you are bound, only in the case where you are knocked back or prone.
+  - name: Cloak of Quills
+    desc: When grappling, you can spend an action to dislodge quills in your cape against your grappled target, granting you an additional wound for every one dealt by your other Actions.
+  - name: Gloves of the Salamander
+    desc: "Blue tarnished metal that is warm to wear and smells of whale oil. Grants you a ranged attack with the following profile: Range 1/2. Target is Hurt (Fire)."
+  - name: Stonecloak
+    desc: Thin fiberous rocks are spun into a cloak. You are immune to the damage of fire.
+  - name: Contact Medallion
+    desc: Whenever you touch a creature in combat, you can make a special Action to swap your initiative with theirs.
+  - name: Churango's Mechanical Eyepatch
+    desc: Spinning gears over a dark leather eyepatch. When placed over the left eye, allows the wearer to see invisible creatures and objects. When placed over the right eye, allows the wearer to see through illusory effects.
+  - name: Counterstrike Dagger
+    desc: When wielded along with a rapier, you can make an attack whenever a melee attack misses you. You specify the action die as normal, but you do not spend it.
+  - name: Opal Mask of Detection
+    desc: A shimering pale blue mask of polished stone that allows the wearer to witness the dreams of nearby sleeping creatures.
+  - name: Hand of the Oaken Child
+    desc: A small wooden hand with six fingers. Two of the fingers are curled in as though slowly forming a fist. The hand is attached to a leather strap that allows it to be worn as a neclace. If you make a wish while crying, you will hear a child crying in the distance before the wish is granted and another finger closes shut.
+  - name: Greatreach Gloves
+    desc: Your arms can stretch giving you an extra square's worth of reach.
+  - name: Tome of the Lorebinder
+    desc: Once per adventure, you can sit down for an hour or so and read a chapter of this book, allowing you to discover the answer to a question you have.
+  - name: Automatic Lockpicking Ring
+    desc: A ring that includes tiny lockpick tools that move and articulate automatically. Once per adventure you can press the ring into a lock to unlock it.
+  - name: Mask of the Mesmerist
+    desc: Once per Adventure, as a special action, you can force a creature you see to immediately take an action of your choosing.
+  - name: Phoenix Sash
+    desc: A bright orange sash that you wrap around yourself. If you die, you will wake up the next morning with 1 action pool die. Your irises are permanently red after this happens.
+  - name: Ring of Antivenom
+    desc: You are immune to poison while wearing this ring.
+  - name: Musicbox of Divergence
+    desc: Once per Adventure, you can choose to cause a divergence in the timestream when you encounter an effect you wish had not happened. You can spend an Action to wind the musicbox allowing you to be unaffected by one effect that would have harmed you, leaving a corpse of yourself that was hit by the effect.
+  - name: Goggles of the Four Winds
+    desc: You can create gusts of wind as an Action that grants you cover from ranged attacks for 1 round. These gusts of wind are quite potent, blowing dust and leaves and paper around and moving tree limbs.
+  - name: Ring of Lightning Flash
+    desc: Once per adventure you can cast a bolt of Lightning out of your ring at a creature within 6 squares. It will then bounce to the nearest creature within 4 squares, then 2 squares. Each creature hit will be dealt 1 Grievous wound and will be Shocked.
+  - name: Staff of Grounding
+    desc: A metalic staff that makes you immune from damage from effects that cause Shocked.
+  - name: Robe of Vanishing
+    desc: Once per adventure, you can become invisible until you take a hostile action towards another creature or choose to become visible.
+  - name: Tabard of the Great Crusade
+    desc: A relic of a long past war when humans first learned to hone Aether, this grants the wearer +2 Defense and an additional +2 Defense against effects rolled against your Soul.
+  - name: Headband of the Third Eye
+    desc: When you strap this headband on, it burns an eyeball into your forehead before the headband itself disentegrates. This eye allows you to see without light, you can roll an additional Attribute die when determining people's real intent, and you can see through illusory effects. To use these abilities, your eye actually opens.
+  - name: Withering Armband of the Devout
+    desc: When you strap this armband onto your upper arm, you are wracked in shreaking pain as your arm goes necrotic below the armband and dies. Soon a muscular arm covered in lizard skin will grow from the stump covered in splotches of thick black wirey hair. On the hand are six fingers without fingernails. You have full control over this limb as though it were your original arm, though it is clearly not of this world. Attempting to remove the armband causes unspeakable pain.
+  - name: Vanguard Treads
+    desc: You can move through difficult terrain as though it were normal, and you do not slip on slippery surfaces.
+  - name: Veil of Allure
+    desc: You can make a special action to roll a Soul roll against half the target's maximum Mind roll to cause a creature to immediately walk towards you. The target does not use an action to do so.
+  - name: Banner of the Maelstrom
+    desc: An old and tattered flag with a set of curling lines drawn around it. As long as this banner is raised, all creatures below are immune to the effects of Terrorized, but lose 1d4 sanity every round.
+  - name: Cognizance Compass
+    desc: A broken compass whos needle points towards the nearest Aether deposit.
+  - name: Amber Globe of Sunlight
+    desc: You may throw the globe up to 6 squares. When it arrives at the end of its trajectory, it blasts light turning the area into daylight.
+  - name: Everwarm Bedroll
+    desc: When you sleep, you can heal 1 wound.
+  - name: Mapcase of Unseen Secrets
+    desc: A mapcase stuffed with maps. If you spend an hour looking through the maps, you can determine the location of a hidden door in the area you wish to seek.
+  - name: Mirror of Suggestion
+    desc: When you use an Action to activate the mirror, you can suggest a creature who can see the surface of the mirror to do something. You make a Soul roll against half the target's maximum Mind roll, compleling them to do what you suggest. They won't willingly harm themselves but will otherwise carry out your actions happily. This lasts until the end of the Adventure.
+  - name: Mirror of Time Hop
+    desc: Once per adventure you can spend an Action point to look into this mirror and go back in time to the previous round, spending action points this round as though you had spent them last round. Some events are too complex to unwind, but many times you can otherwise undo effects you did not forsee.
+  - name: Orb of Blinding
+    desc: This polished black Aethercrystal orb emits dark light up to 2 squares from its location blinding creatures and blocking sight.
+  - name: Truelight Lantern
+    desc: This lantern provides bright illumination and can distort illusory effects.
+  - name: Scrolls of Uncertain Provenance
+    desc: This bundle of rough parchment contains scraps of writing. You can read one as an action immediately causing a mysterious effect and losing sanity.
+  - name: Shard of the Sun
+    desc: An orange crystal that is warm to the touch. Once per Adventure you can spend a special Action to shoot a beam of light straight ahead at an enemy rolling Intellect against half their maximum Speed. This AOE effect is a straight line, impacting every creature behind it and burning a hole in material up to 4 squares thick before dissapating. 
+  - name: Soul Anchor
+    desc: When you sleep, you can lucid dream, leaving your body. Any creature that falls asleep near you can participate in this dreamwalking. You can't interact with the world and creatures won't interact with or even be aware of you, but can move through objects that are not made of Aether. To awake, simply return to your body. 
+  - name: Holy Water
+    desc: A silver vial that holds holy water. Once per adventure you can pour this out in an area preventing eldritch effects from getting worse for the rest of the round.
+  - name: Talisman of the Troll
+    desc: By using a special action, you can grow twice your size and increase your might die by 2 sizes up to a d20. This effect lasts until the end of the round.
+  - name: Scepter of the Watching Master
+    desc: A large pale yellow eye resembling that of a goat is atop the head of this mace watches the world as you travel. You can roll an additional Attribute die for Initiative.
+  - name: Raptor Mask
+    desc: A golden bird head's mask with red gemmed eyes. Though a bit ostentatious, you can roll an additional Attribute die on all Soul rolls. 

@@ -1,0 +1,383 @@
+weapons:
+  - name: Baton
+    cost: 0
+    keywords: 
+      - stealth
+      - non-lethal
+    abilities:
+      - roll: 1-5
+        detail: Attack
+      - roll: 6
+        detail: Stuns target until the beginning of its next turn instead of dealing damage if this Attack was successful.
+  - name: Brass Knuckles
+    cost: 20
+    keywords:
+      - non-lethal
+    abilities:
+      - roll: 1-2
+        detail: Swap initiative order either 1 forward or 1 backward of your current position.
+      - roll: 3-4
+        detail: If attacking a grappled target, roll an additional Attribute die.
+      - roll: 5-6
+        detail: Grapple a target afterwards if this Attack was successful.
+  - name: Cane
+    cost: 10
+    keywords:
+      - Non-lethal
+    abilities:
+      - roll: 3-5
+        detail: This Attack deals non-lethal damage"
+      - roll: 6
+        detail: Attack, then Attack again!
+  - name: Walking Stick
+    cost: 5
+    keywords:
+      - two-handed
+    abilities:
+      - roll: 2+
+        detail: Attack a target up to 2 squares away
+  - name: Chainsword
+    cost: 60
+    keywords:
+      - steam
+    abilities:
+      - roll: 3-4
+        detail: Ignore Defense granted by shields on this Attack.
+      - roll: 5-6
+        detail: Wounds dealt are Grievous on this Attack
+  - name: Dirk
+    cost: 10
+    keywords:
+      - stealth
+    abilities:
+      - roll: 2-3
+        detail: Swap initiative order either 1 forward or 1 backward of your current position."
+      - roll: 4-6
+        detail: Can attack target in back facing for an additional Atribute die. Can be Thrown with Range 1/4."
+      - roll: 6
+        detail: Wounds are doubled on this attack."
+  - name: Rapier
+    cost: 20
+    abilities:
+      - roll: 1
+        detail: Swap initiative with your target.
+      - roll: 2-5
+        detail: Gain 1 defense from melee attacks from your target if you miss.
+      - roll: 6
+        detail: Double wounds on this attack.
+  - name: Trident
+    cost: 40
+    abilities:
+      - roll: 2
+        detail: Swap initiative with your target.
+      - roll: 3+
+        detail: Attack or Thrown (2-6)
+      - roll: 5-6
+        detail: Double wounds from melee attacks if you also have a shield.
+  - name: Warhammer
+    cost: 40
+    abilities:
+      - roll: 3
+        detail: Place yourself in last initiative order. Your first attack with this action will gain an additional Attribute die.
+      - roll: 4-5
+        detail: Ignore Defense granted by shields.
+      - roll: 6 
+        detail: Target removes 1 action point die if Attack is successful as though the target had spent an Action.
+  - name: Halberd
+    cost: 80
+    keywords:
+      - two-handed
+    abilities:
+      - roll: 1-2
+        detail: Move your target's initiative either 1 forward or 1 backward of its current position.
+      - roll: 3+
+        detail: Attack target up to 2 squares away
+      - roll: 6
+        detail: Target falls prone after successful attack
+  - name: Chain Whip
+    cost: 50
+    abilities:
+      - roll: 3-5
+        detail: Attack
+      - roll: 6
+        detail: Target cannot move until next round.
+  - name: Cane Sword
+    cost: 50
+    keywords:
+      - stealth
+    abilities:
+      - roll: 3-5
+        detail: Attack
+      - roll: 6
+        detail: Wounds are doubled for this Attack
+  - name: Cutlass
+    cost: 40
+    abilities:
+      - roll: 2-3
+        detail: Attack. Increase your initiative by 1 forward.
+      - roll: 4-5
+        detail: Attack twice
+      - roll: 6
+        detail: Attack thrice
+  - name: Boomerang
+    cost: 60
+    abilities:
+      - roll: 4-5
+        detail: Thrown 3/8, weapon returns to the user during the next round
+      - roll: 6
+        detail: Thrown 3/8, weapon attacks target again next round
+  - name: Derringer
+    cost: 40
+    keywords:
+      - reload 2
+      - stealth
+    abilities:
+      - roll: 1-4
+        detail: Range 1/2, you can move your initiative up or down one position.
+      - roll: 5-6
+        detail: Range 1/4, you may choose to attack twice if you have the ammunition to do so.
+  - name: Bola Launcher
+    cost: 30
+    keywords:
+      - two-handed
+      - reload 1
+    abilities:
+      - roll: 3-4
+        detail: Swap your initiative with a willing friendly creature.
+      - roll: 5-6
+        detail: Thrown 3/6. Target is Stuck for the rest of the round.
+  - name: Sawblade Launcher
+    cost: 100
+    keywords:
+      - steam
+      - two-handed
+      - reload 1
+    abilities:
+      - roll: 2-3
+        detail: Move to the last place in Initiative. Your next attack with this weapon then deals double wounds.
+      - roll: 4-5
+        detail: Range 2/10
+      - roll: 6
+        detail: Range 2/10. Wounds caused are Grievous.
+  - name: Steam Pistol
+    cost: 60
+    keywords:
+      - steam
+      - reload 1
+    abilities:
+      - roll: 3-5
+        detail: Range 2/6, You can choose to move your initiative up or down one position.
+      - roll: 6
+        detail: Range 1/10
+  - name: Dragon Pistol
+    cost: 90
+    keywords:
+      - reload 1
+    abilities:
+      - roll: 4+
+        detail: AOE. All creatures in front facing within 3 squares are dealt Fire damage on this Attack.
+  - name: Gunblade
+    cost: 400
+    keywords:
+      - steam
+      - two-handed
+      - reload 4
+    abilities:
+      - roll: 3-5
+        detail: Attack
+      - roll: 6
+        detail: Make a Range 1/1 Attack after a successful melee Attack. The ranged attack deals Grievous wounds.
+  - name: Grenade Axe
+    cost: 300
+    keywords:
+      - two-handed
+      - reload 1
+    abilities:
+      - roll: 3-5
+        detail: Attack
+      - roll: 6
+        detail: AOE. When you attack, your target and all creatures adjacent take 1 wound from an explosion if the attack roll is higher than half their maximum Speed roll, and the target loses 2 Defense permanently.
+  - name: Tri-Gun
+    cost: 100
+    keywords:
+      - steam
+      - reload 3
+    abilities:
+      - roll: 4-5
+        detail: Range 1/3
+      - roll: 6
+        detail: Range 1/3. You can optionally fire all remaining bullets.
+  - name: Blunderbuss
+    cost: 100
+    keywords:
+      - two-handed
+      - reload 1
+    abilities:
+      - roll: 4-5
+        detail: Range 1/4
+      - roll: 6
+        detail: Range 1/4. Target takes Grievous wounds from this attack.
+  - name: Steam Repeater
+    cost: 200
+    keywords:
+      - steam
+      - two-handed
+      - reload 4
+    abilities:
+      - roll: 2-4
+        detail: Range 2/7. If this is not your first Attack action this round, you can choose to move your initiative up or down one position.
+      - roll: 5-6
+        detail: Range 1/14
+  - name: Hand Cannon
+    cost: 150
+    keywords:
+      - steam
+      - reload 1
+    abilities:
+      - roll: 3-4
+        detail: Range 1/3
+      - roll: 5-6
+        detail: Range 1/3. AOE. Shot pierces through all targets in range in a straight line and you are pushed back 1 square.
+  - name: Hellfire Musket
+    cost: 200
+    keywords:
+      - steam
+      - two-handed
+      - reload 1
+    abilities:
+      - roll: 4-5
+        detail: Range 2/7, AOE. All targets within 1 square of target are hit with Fire damage on a successful Attack.  Roll Intelligence vs half of target's maximum Speed roll.
+  - name: Smoke Grenade
+    cost: 60
+    abilities:
+      - roll: 4+
+        detail: Thrown 3/6. AOE. a 3 square pillar of smoke blocks line of site. Any creature within the smoke is effectively blind.  Roll Intelligence vs half of target's maximum Speed roll.
+  - name: Frag Grenade
+    cost: 60
+    abilities:
+      - roll: 4+
+        detail: Thrown 3/6. AOE. All creatures within 1 square of the impact take a Wound.  Roll Intelligence vs half of target's maximum Speed roll.
+  - name: Stun Grenade
+    cost: 60
+    abilities:
+      - roll: 4+
+        detail: Thrown 3/6. AOE. All creatures within 1 square of the impact are stunned until the beginning of the next round.  Roll Intelligence vs half of target's maximum Speed roll.
+  - name: Gravity Grenade
+    cost: 60
+    abilities:
+      - roll: 4+
+        detail: Thrown 3/6. AOE. All creatures within 6 squares are moved up to 4 squares closer to the point of impact. Any creature that touches the impact point takes a wound.
+  - name: Grenade of Glue
+    cost: 60
+    abilities:
+      - roll: 4+
+        detail: Thrown 3/6. AOE. All creatures within 1 square of the impact are Stuck. Roll Intelligence vs half of target's maximum Speed roll.
+armor:
+  - name: Clothing
+    cost: 0
+    defense: "+1"
+  - name: Leather Jumpsuit
+    cost: 20
+    defense: "+2"
+    keywords:
+      - silent
+  - name: Greatcoat
+    cost: 40
+    defense: "+3"
+  - name: Scrapcoat
+    cost: 60
+    defense: "+4"
+    keywords: 
+      - noisy
+  - name: Imperial Plate
+    cost: 100
+    defense: "+4"
+    keywords:
+      - "Minimum Might: d10"
+  - name: Knight Suit
+    cost: 240
+    defense: "+5"
+    keywords:
+      - "Minimum Might: d12"
+shields:
+  - name: Buckler
+    cost: 40
+    defense: "+1"
+    abilities:
+      - Doesn't use a hand to hold.
+  - name: Kite Shield
+    cost: 80
+    defense: "+3"
+  - name: Gun Shield
+    cost: 80
+    defense: "+2"
+    abilities:
+      - "Provides an optional Action. 6: Range 1/3. If you've made a melee attack on this turn, the ranged attack provides an additional Attribute die."
+mechsuits:
+  - name: Loading Harness
+    cost: 240
+    defense: "+3"
+    actionPoints: 3
+    keywords:
+      - steam
+      - noisy
+    abilities:
+      - Your might score is d20, but your Movement speed is halved.
+  - name: Assault Suit
+    cost: 240
+    defense: "+6"
+    armorPlates: 3
+    actionPoints: 3
+    keywords:
+      - steam
+      - noisy
+    abilities:
+      - A heavily armored suit protects you from most harm. You take 1 less damage from AOE effects.
+  - name: Hoplight Suit
+    cost: 200
+    defense: "+5"
+    armorPlates: 1
+    actionPoints: 4
+    keywords:
+      - steam
+      - noisy
+    abilities:
+      - Increase Speed by 1 die face up to d20.
+      - You can make a movement special action when affected by an AOE effect. You can immediately dash your maximum movement distance to your left or right. This can cause AOE effects to miss. If you impact another creature, you resolve it as though you had been Hurled.
+  - name: Artillery Platform
+    cost: 240
+    actionPoints: 3
+    defense: "+2"
+    armorPlates: 0
+    keywords:
+      - steam
+      - noisy
+    abilities:
+      - You can use a special action to fire 2 ranged weapons at the same time. However, you cannot move or have moved on this round.
+  - name: Scout Operative
+    cost: 240
+    actionPoints: 3
+    armorPlates: 2
+    defense: 4
+    keywords:
+      - steam
+    abilities:
+      - "You can deploy a small golden raptor drone to survey an area aerially as a special action. It has the following profile: Might: d4 Speed: d8 mind: d4 soul: d4. It can stay within radio range of your suit for up to around a mile"
+  - name: Nemo Suit
+    cost: 320
+    defense: 4
+    armorPlates: 2
+    actionPoints: 3
+    keywords:
+      - steam
+    abilities:
+      - Movement out of water is halved. Can swim and move freely while submerged using a back mounted threaded waterjet drive. So long as the mechsuit is not wrecked, the pilot has breathable air and a warm cabin. If the mechsuit wrecks, the pilot doubles their breathing rounds before death.
+  - name: Cloudkicker Suit
+    cost: 320
+    defense: 4
+    armorPlate: 1
+    actionPoints: 4
+    keywords:
+      - steam
+    abilities:
+      - Movement while not flying is halved. Can fly and move freely in the air (though cannot hover) using collapsable spring loaded rigid wings and back mounted turbine engine.

@@ -1,0 +1,153 @@
+traits:
+  - name: Alluring
+    desc: You are especially attractive. Yo ucan roll an additional Attribute die on Influence rolls when somebody finds you attractive.
+  - name: Alternate Identity
+    desc: Somewhere, you have another identity. Perhaps it's the original "you" that you abandoned, or perhaps you really look like somebody that others find familiar. Only your closest friends and family know the truth.
+  - name: Animal Empathy
+    desc: You have always had a way with critters. You have an intuition about how they act, what they want, and how they behave. When rolling to soothe or influence animals using an action pool die of a 5 or higher, you can ask simple yes/no questions and the animal will reply.
+  - name: Antiquarian
+    desc: You have a knack for knowing the origin and value of antiques and antiquities. You can roll an additional Attribuet die to determine the historical significance or value of an object.
+  - name: Attuned to Nature
+    desc: You have a green thumb, and have always been drawn to the great outdoors. You can roll an additional Attribuet die on knowledge of the outdoors.
+  - name: Blue Blood
+    desc: You are descended from nobility or royalty. Your background may open various doors in some social circles, and some people may treat you differently when they find out.
+  - name: Born in the Saddle
+    desc: You have been riding creatures your whole life, and it feels natural. Yo ucan roll an additional Attribuet die on any roll to ride or steer a mounted creature.
+  - name: Born to Drive
+    desc: Steering coaches, trains, and boats comes naturally to you. You can roll an additional Attribuet die to steer or pilot a vehicle.
+  - name: Brawler
+    desc: Your unarmed blows deal wounds.
+  - name: Bullseye
+    desc: Your shots rarely miss their mark. When making a ranged attack with an action pool die of a 4 or higher, you can ignore cover.
+  - name: Catabank
+    desc: You have a golden voice, a knack for memorizing lines, and the wit to back it up. You can roll an additional Attribute die when you are performing in front of crowds.
+  - name: Combat Ready
+    desc: You were a born fighter and have always excelled at armed combat. When you make a weapon attack using a 6 on the action pool die, your damage is doubled.
+  - name: Contacts
+    desc: You have allies that will help you in times of trouble. They can provide information, plant small items in key places, or you into locked doors that they may have influence over. As a special action outside of combat, you can describe a way that your contacts have prepared for your arrival. The GM has ultimate say in whether or not it is appropriate and the specific details of how the enemies react to it.
+  - name: Danger Sense
+    desc: You have eyes in the back of your head. You can never be surprised by an attack so long as you are conscious and not restrained. In fact, you've been known to get a "bad feeling about this" when you are getting near dangerous areas. Even a sniper can't be sure you won't duck out of the way.
+  - name: Defensive Fighter
+    desc: The best offense is a good defense. Shields grant you cover against ranged attacks.
+  - name: Devoted to the Cause
+    desc: You fervently support a cause or goal. When performing an action in line with your calling, you can choose to re-roll any party action die rather than taking the face value and use either value.
+  - name: Faith Leader
+    desc: You have a strong faith in a higher power. When ddealing with people in topics and matters of belief, you may roll an additional attribute die.
+  - name: Fast Healer
+    desc: You seem to get up and about more quickly than others when wounded. Maybe that explains why you're always hungry. When you heal, you can roll the Attribute die an additional time.
+  - name: Fast on your Feet
+    desc: You are a natural sprinter. If you take a move action on a round and you haven't yet taken any other action, you may double your movement distance.
+  - name: Focused Hunter
+    desc: You are exceptionallry good at hunting and tracking a particular kind of creature. Choose a creatuer. You may add an additional attribuet die to any knowledge or interaction actions with or about them (including attacks, stalking, tracking, etc).
+  - name: Formidable Presence
+    desc: You project an aura of authority and fear. You can add an additional attribute die on intimidation attempts.
+  - name: Guardian
+    desc: You are always looking out for your friends. When a friend is attacked with a melee attack, you can immediately make a special action to Move towards them. If you have enough movement to get to the square they stand in, you can Shove them 1 square out of the way and take the blow yourself. If you use a 6 on the action die, you can completely block the attack taking no damage.
+  - name: Hardy Constitution
+    desc: You have the stomach of an ox. You can eat and drink almost anything without ill effect. You cannot be poisoned and can eat spoiled food.
+  - name: Head for Numbers
+    desc: You can solve complex math problems in your head. You can add an additional ATtribute die when knowledge of nmathematics will help.
+  - name: First Aid
+    desc: You have a natural inclination for caring for the sick. You can recover 1 grievous wound from another character. The target cannot be healed by this more than once per adventure.
+  - name: Heavy Armor Master
+    desc: You have trained heavily with Plate armor and are a walking bastion. While wearing armor with the Heavy tag, you gain +2 Defense.
+  - name: Hidden Dagger
+    desc: You have learned how ot hide blades where none can find them, even when they pat you down naked. You've been called "five knives" becaues you carry so many hidden blades. You always have a dagger on your person and can hide small items that can fit into your palm in places no one can find.
+  - name: Higher Education
+    desc: You have attended a university or some other form of higher education. Write down your topic of study. You can add an additional Attribute die to knowledge rolls about that topic.
+  - name: In Plain Sight
+    desc: You can fade into the background and blend into a crowd. When using an action die of 5+, you can hide in all sorts of places you dont belong, even empty rooms. You can grab a broom and pretend to be a janitor, snatch a bag of groceries and a scarf around your head and you are an average shopper in a bazaar. Without means of tracking or identifying you, you will always slip away so long as you don't give your true identity away.
+  - name: Intuitive Leaps
+    desc: You have trustworthy hunches and make good gut decisions. When you are investigating some situation with an action die of a 5+, you can ask the GM as yes, no, or not applicable question about the sitation you are facing. If you receive the third answer, you may keep the action die.
+  - name: Leave No Footprints
+    desc: You have learned that you can move swiftly and not leave a trail, and can add an additional Attribute die to rolls to hide your tracks.
+  - name: Light Sleeper
+    desc: You awake to the slightest noise or disturbance. You automatically wake when a hostile creature is near.
+  - name: Lightning Reflexes
+    desc: You have fast reactions and decisive movementsn. When hit with an AOE ability, you can make a special action to red uce the wounds you take by 1.
+  - name: Loyal Companion
+    desc: Whether an animal, apprentice, or sidekick, you have a creature that sticks by your side no matter what. You can guide your companion by speaking or gesturing to it. The GM will give you a character sheet for your companion.
+  - name: Lucky
+    desc: You are blessed with good fortune. Sometimes you scrape by when others do not. Once per session, you can reroll any of the dice on a roll and take either result.
+  - name: Natural Athlete
+    desc: You are in amazingly good physical condition.p You can add an additional attribute die to athletic actions.
+  - name: Natural Linguist
+    desc: You are a student of tongues, both foreign and ancient. You can understand any language at least to a rudimentary degree.
+  - name: Negotiator
+    desc: You have learned the art of compromise and how to hide your true motivations in conversation. When attempting to persuade or deceive someone, you can roll an additional Attribute die.
+  - name: Pack Mule
+    desc: You have broad shoulders and a strong back. You double your carrying capacity.
+  - name: Perceptive
+    desc: You are sensitive to the slightest smell, sound, and flicker in your peripheral vision. You can add an additional attribute die to rolls where you are searching for something or similar actions such as trying to read subtle changes in someone's facial expressions.
+  - name: Photographic Memory
+    desc: You have the ability to recall information and material that you have studied for at least 30 seconds to a frightening level of detail. You can unerringly recall almost anything you have seen, heard, read, or studied.
+  - name: Quick Hands
+    desc: You have remarkably fast and nimble hands. You can add this roll to any activity where you need to move your hands rapid ly, such as performing a card trick, swiping a key off of a desk, or pick pocketing someone.
+  - name: Quick Learner
+    desc: You pick up on new things very quickly. Once per session you can choose to learn how to do something you wouldn't normally know how to do, allowing you to have an additional attribute die on those rolls. It does take you 10 minutes to get the hang of the thing, but yor the remainder of the session you gain that skill.
+  - name: Quickdraw
+    desc: You can draw your weapon so fast your attackers don't see it coming. When combat starts, you can make a single ranged attack action with a firearm without spending the action die to do so.
+  - name: Shadow
+    desc: It is nearly impossible to find any record of you ever existing unless you intentionally leave or have left clues or other information behind.
+  - name: Silent
+    desc: You can add an additional Attribute die to rolls to sneak around without others noticing you.
+  - name: Sixth Sense
+    desc: You can sense the presence of abyssal forces, and can see a halo or aura emanating from the point of presence.
+  - name: Sniper
+    desc: You feel that only fools would walk up to their enemies to fight them. When making a ranged attack against a target unaware of your position using an action die of 5+, your attack will deal double damage.
+  - name: Steady Calm
+    desc: You have iron nerves and stand firm in the face of danger. You gain +2 defense against effects that cause terrorized.
+  - name: Sure Footed
+    desc: You can add an additional Attribute die to rolls to maintain your balance.
+  - name: Swimmer
+    desc: You have a capacity for aquatic movement beyond normal means. You do not suffer penalties from swimming and only use half the air that you otherwise would.
+  - name: Thick Skinned
+    desc: If you are only wearing Clothing and otherwise unarmored, you gain +3 additional defense.
+  - name: Tough
+    desc: You are hard to take down. When you take your final wound, you can roll a Vitality die against the total number of wounds you have (Grievous wounds count as two) and ignore the wound on a success.
+  - name: Two-Weapon Fighting
+    desc: You are an expert at fighting with two weapons at the same time. When you make an attack action with one weapon and use an action die of a 5+, you can make an attack action with another weapon without spending an action point provided you can wield both weapons at the same time.
+  - name: Unbreakable Will
+    desc: Your mind is a lockbox. You cannot be fooled by illusions and are immune to any effect that can cause you to lose control of your character such as mind control or possession.
+  - name: Wealthy
+    desc: You recieve double the money for every adventure from a wealthy benefactor.
+  - name: Weaponmaster
+    desc: You have learned the art of devastating your opponents with two handed weapons. When making a melee attack with a two handed weapon and use an action die of 5+, your attacks deal double damage.
+  - name: Battledancer
+    desc: You move with the rythm of the field of battle. When you are hit with a melee or ranged attack, you can take a special action to roll a Speed die and increase your Defense by that amount. If you casue the attack to miss, it is redirected back at the attacker.
+  - name: Crimson Blade
+    desc: You are so in tune with your blade that you can cut and redirect life force from your victims. If you kill a hostile creature with an attack, you can turn one of your grievous wounds to a normal wound.
+  - name: Berserker
+    desc: For every enemy you kill during your turn, you can immediately make a move action without spending action pool dice if it brings you closer to another enemy. If needed by another effect, you can assume the die face for the movement action would have been a 6.
+  - name: Spirit of Sword and Bow
+    desc: You have mastered a combat form that lets you rapidly switch between melee and ranged attacks. When you make a ranged attack, you can choose to sling your weapon and draw a melee weapon. If your action die is a 5+, you can immediately make a movement towards an enemy and attack it with melee following a ranged attack, or nmove away from an enemy and make a ranged attack following a melee attack.
+  - name: Living Wall
+    desc: Whenever an enemy moves into or out of your melee attack range, you can immediately make a Melee attack action. If the attack hits, the enemy can move no further in this round regardless of whether or not the attack dealt damage. If the attack hits and you used a 5+ on your melee attack action, the enemy cannot harm or assist anyone other than you for the rest of the round.
+  - name: Sinister Strikes
+    desc: If you attack someone who is facing away from you and does not know you are there, you deal double damage.
+  - name: Master Lockpick
+    desc: You can add an additional attribute die to pick any mechanical lock with an action.
+  - name: Dirty Fighting
+    desc: There's no such thing as honor in combat. When you make a melee attack using an action die of 6,  you can throw dirt or pocket sand into the eyes of a target blinding them for the next round. 
+  - name: Demolition Man
+    desc: You've been blowing things up all your life. When you roll for explosives, you can add an additional Attribute die.
+  - name: Ace Dogfighter
+    desc: While firing ranged weapons on a vehiclre, you may attack twice for every attack action.
+  - name: Steam Piston Power
+    desc: When piloting a mechsuit, you know exactly how much pressure can be built up before explosive decompression. You can roll an additional Attribute die when you make a Steam roll.
+  - name: Rickshaw Tinkerer
+    desc: You can slap together and repair mechanical implements. You can make repair actions in combat against wounds only.
+  - name: Light on your Feet
+    desc: You ignore penalties for walking through difficult terrain.
+  - name: Point Blank Shot
+    desc: You ignore minimum range on ranged weapons. 
+  - name: Roulette
+    desc: When you are adjacent to more than one enemy and not wearing heavy armor, you gain +2 Defense until you are damaged. At this point, the bonus is lost. You regain this armor after not being damaged for a single round.
+  - name: Charred
+    desc: You've been burned in the past and healed through it. As a side effect, you reduce all wounds from fire by 1 every time you recieve Hurt (Fire) damage.
+  - name: Gunslinger
+    desc: You're a walking legend with a firearm. On the first round of combat, you can roll an additional attribute die on all attacks and gain +2 defense against anyone who attacks you.
+  - name: Steam Engine Mechanic
+    desc: You've got a knack for belts and gears, as though you have a sixth sense for machines. When you repair all the wounds on any mechanical creature or object, it gains 1 Armor Plate if it can have Armor Plating.
+  - name: Engineer
+    desc: You can add an additional attribute die to Repair rolls.

@@ -15,6 +15,29 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-2
       # Build inside Docker containers
-      - run: sam build --use-container --template-file ./sam/main.yml
+      - name: sam build
+        run: sam build --use-container --template-file ./sam/main.yml
       # Prevent prompts and failure when the stack is unchanged
-      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
+      - name: sam deploy
+        run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
+      - name: Read .nvmrc
+        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${NVMRC}
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: yarn cache
+      - uses: actions/cache@v2
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: yarn install
+        run: yarn install
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        
