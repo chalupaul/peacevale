@@ -19,6 +19,9 @@ const MechSuitShop = loadable(() => import('./mechsuits'), {
     fallback: <Loader />
 });
 
+const SundriesShop = loadable(() => import('./sundries'), {
+    fallback: <Loader />
+});
 
 export const ItemShop = (props) => {
     switch (props.match.params.itemType) {
@@ -30,6 +33,8 @@ export const ItemShop = (props) => {
             return <ShieldShop />;
         case "mechsuits":
             return <MechSuitShop />;
+        case "sundries":
+            return <SundriesShop />;
         default:
             return <WeaponShop />;
     };

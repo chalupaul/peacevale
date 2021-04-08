@@ -2,23 +2,29 @@ import YAML from 'yaml';
 import itemsData from './items.yaml';
 import traitsData from './traits.yaml';
 import relicsData from './relics.yaml';
+import sundriesData from './sundries.yaml';
+
+const getYamls = async (data) => {
+    const response = await fetch(data);
+    const resultsRaw = await response.text();
+    const results = await YAML.parse(resultsRaw);
+    return results;
+};
 
 export const getItems = async () => {
-    const response = await fetch(itemsData);
-    const itemsRaw = await response.text();
-    const items = await YAML.parse(itemsRaw);
-    return items;
+    return await getYamls(itemsData);
 };
 
 export const getTraits = async () => {
-    const response = await fetch(traitsData);
-    const traitsRaw = await response.text();
-    const traits = await YAML.parse(traitsRaw);
-    return traits;
+    return await getYamls(traitsData);
 };
 
 export const getRelics = async () => {
-    const response = await fetch(relicsData);
+    return await getYamls(relicsData);
+};
+
+export const getSundries = async () => {
+    const response = await fetch(sundriesData);
     const relicsRaw = await response.text();
     const relics = await YAML.parse(relicsRaw);
     return relics;
