@@ -24,10 +24,7 @@ export const getRelics = async () => {
 };
 
 export const getSundries = async () => {
-    const response = await fetch(sundriesData);
-    const relicsRaw = await response.text();
-    const relics = await YAML.parse(relicsRaw);
-    return relics;
+    return await getYamls(sundriesData);
 };
 
 export const sortItemsByName = (a, b) => {
