@@ -58,9 +58,8 @@ Resources:
     Properties:
       HostedZoneId: Z01554673UC7WST1TADVK
       RecordSets:
-      - Name: peacevale
+      - Name: peacevale.rpg.chalupaul.com.
         Type: A
-        TTL: 300
         AliasTarget:
           DNSName: !GetAtt CloudFrontDistro.DomainName
           EvaluateTargetHealth: false
