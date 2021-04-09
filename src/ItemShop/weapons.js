@@ -1,6 +1,5 @@
 import React from 'react';
-import { getItems, sortItemsByName } from '../data/Items';
-import { usePoller } from '../data/poller';
+import { sortItemsByName } from '../data/Items';
 import { WeaponCard } from './components/WeaponCard';
 import { useStyles } from '../components/Styler';
 import { ButtonSelector } from '../components/ButtonSelector';
@@ -10,21 +9,8 @@ import Grid from '@material-ui/core/Grid';
 import { Header, Footer } from '../components/PageBasics';
 
 
-export default function WeaponShop() {
+export default function WeaponShop({ items }) {
     const classes = useStyles();
-
-    const [items, setItems] = React.useState();
-
-    usePoller(() => {
-        (async () => {
-            try {
-                const items = await getItems();;
-                setItems(items);
-            } catch (err) {
-                console.log(err);
-            }
-        })();
-    }, 30000);
 
     return (
         <React.Fragment>
@@ -38,7 +24,7 @@ export default function WeaponShop() {
                 <Container className={classes.cardGrid} maxWidth="lg">
                     {/* End hero unit */}
                     <Grid container spacing={4}>
-                        {items && items.weapons.sort(sortItemsByName).map((weapon) => (
+                        {items.weapons && items.weapons.sort(sortItemsByName).map((weapon) => (
                             <WeaponCard weapon={weapon} />
                         ))}
                     </Grid>

@@ -126,7 +126,7 @@ relics:
   - name: Robe of Vanishing
     desc: Once per adventure, you can become invisible until you take a hostile action towards another creature or choose to become visible.
   - name: Tabard of the Great Crusade
-    desc: A relic of a long past war when humans first learned to hone Aether, this grants the wearer +2 Defense and an additional +2 Defense against effects rolled against your Soul.
+    desc: A relic of a long past war when humans first learned to hone Aether, this grants the wearer +2 Defense and an additional +2 Defense against effects that target your Mind.
   - name: Headband of the Third Eye
     desc: When you strap this headband on, it burns an eyeball into your forehead before the headband itself disentegrates. This eye allows you to see without light, you can roll an additional Attribute die when determining people's real intent, and you can see through illusory effects. To use these abilities, your eye actually opens.
   - name: Withering Armband of the Devout
@@ -134,7 +134,7 @@ relics:
   - name: Vanguard Treads
     desc: You can move through difficult terrain as though it were normal, and you do not slip on slippery surfaces.
   - name: Veil of Allure
-    desc: You can make a special action to roll a Soul roll against half the target's maximum Mind roll to cause a creature to immediately walk towards you. The target does not use an action to do so.
+    desc: You can make a special action to roll a Mind roll against half the target's maximum Mind roll to cause a creature to immediately walk towards you. The target does not use an action to do so.
   - name: Banner of the Maelstrom
     desc: An old and tattered flag with a set of curling lines drawn around it. As long as this banner is raised, all creatures below are immune to the effects of Terrorized, but lose 1d4 sanity every round.
   - name: Cognizance Compass
@@ -146,7 +146,7 @@ relics:
   - name: Mapcase of Unseen Secrets
     desc: A mapcase stuffed with maps. If you spend an hour looking through the maps, you can determine the location of a hidden door in the area you wish to seek.
   - name: Mirror of Suggestion
-    desc: When you use an Action to activate the mirror, you can suggest a creature who can see the surface of the mirror to do something. You make a Soul roll against half the target's maximum Mind roll, compleling them to do what you suggest. They won't willingly harm themselves but will otherwise carry out your actions happily. This lasts until the end of the Adventure.
+    desc: When you use an Action to activate the mirror, you can suggest a creature who can see the surface of the mirror to do something. You make a Mind roll against half the target's maximum Mind roll, compleling them to do what you suggest. They won't willingly harm themselves but will otherwise carry out your actions happily. This lasts until the end of the Adventure.
   - name: Mirror of Time Hop
     desc: Once per adventure you can spend an Action point to look into this mirror and go back in time to the previous round, spending action points this round as though you had spent them last round. Some events are too complex to unwind, but many times you can otherwise undo effects you did not forsee.
   - name: Orb of Blinding
@@ -166,4 +166,4 @@ relics:
   - name: Scepter of the Watching Master
     desc: A large pale yellow eye resembling that of a goat is atop the head of this mace watches the world as you travel. You can roll an additional Attribute die for Initiative.
   - name: Raptor Mask
-    desc: A golden bird head's mask with red gemmed eyes. Though a bit ostentatious, you can roll an additional Attribute die on all Soul rolls. 
+    desc: A golden bird head's mask with red gemmed eyes. Though a bit ostentatious, you can roll an additional Attribute die on all Mind rolls. 

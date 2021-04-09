@@ -26,6 +26,8 @@ Resources:
       - S3BucketPolicy
     Properties:
       DistributionConfig:
+        Aliases: 
+          - peacevale.rpg.chalupaul.com
         Origins:
           - DomainName: !Select [2, !Split ["/", !GetAtt S3Bucket.WebsiteURL]]
             Id: S3Origin
@@ -47,3 +49,14 @@ Resources:
             Cookies:
               Forward: none
           ViewerProtocolPolicy: allow-all
+  Route53RecordSetGroup:
+  Type: AWS::Route53::RecordSetGroup
+  Properties:
+    HostedZoneName: rpg.chalupaul.com
+    RecordSets:
+    - Name: peacevale
+      Type: A
+      AliasTarget:
+        DNSName: !GetAtt CloudFrontDistro.DomainName
+        EvaluateTargetHealth: false
+        HostedZoneId: Z01554673UC7WST1TADVK

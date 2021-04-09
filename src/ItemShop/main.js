@@ -1,40 +1,50 @@
 import React from 'react';
 import loadable from "@loadable/component";
 import { Loader } from '../components/Loading';
+import { getItems } from '../data/Items';
 
 
-const WeaponShop = loadable(() => import('./weapons'), {
-    fallback: <Loader />
-});
+export const ItemShop = props => {
+    const [items, setItems] = React.useState(getItems());
 
-const ArmorShop = loadable(() => import('./armor'), {
-    fallback: <Loader />
-});
+    React.useEffect(() => {
+        (async () => {
+            const fetched = await getItems();
+            setItems(fetched);
+        })();
+    }, []);
 
-const ShieldShop = loadable(() => import('./shields'), {
-    fallback: <Loader />
-});
+    const WeaponShop = loadable(() => import('./weapons'), {
+        fallback: <Loader />,
+    });
 
-const MechSuitShop = loadable(() => import('./mechsuits'), {
-    fallback: <Loader />
-});
+    const ArmorShop = loadable(() => import('./armor'), {
+        fallback: <Loader />
+    });
 
-const SundriesShop = loadable(() => import('./sundries'), {
-    fallback: <Loader />
-});
+    const ShieldShop = loadable(() => import('./shields'), {
+        fallback: <Loader />
+    });
 
-export const ItemShop = (props) => {
+    const MechSuitShop = loadable(() => import('./mechsuits'), {
+        fallback: <Loader />
+    });
+
+    const SundriesShop = loadable(() => import('./sundries'), {
+        fallback: <Loader />
+    });
+
     switch (props.match.params.itemType) {
         case "weapons":
-            return <WeaponShop />;
+            return <WeaponShop items={items} />;
         case "armor":
-            return <ArmorShop />;
+            return <ArmorShop items={items} />;
         case "shields":
-            return <ShieldShop />;
+            return <ShieldShop items={items} />;
         case "mechsuits":
-            return <MechSuitShop />;
+            return <MechSuitShop items={items} />;
         case "sundries":
-            return <SundriesShop />;
+            return <SundriesShop items={items} />;
         default:
             return <WeaponShop />;
     };

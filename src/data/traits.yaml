@@ -8,16 +8,16 @@ traits:
   - name: Antiquarian
     desc: You have a knack for knowing the origin and value of antiques and antiquities. You can roll an additional Attribuet die to determine the historical significance or value of an object.
   - name: Attuned to Nature
-    desc: You have a green thumb, and have always been drawn to the great outdoors. You can roll an additional Attribuet die on knowledge of the outdoors.
+    desc: You have a green thumb, and have always been drawn to the great outdoors. You can roll an additional Attribute die on knowledge of the outdoors.
   - name: Blue Blood
     desc: You are descended from nobility or royalty. Your background may open various doors in some social circles, and some people may treat you differently when they find out.
   - name: Born in the Saddle
-    desc: You have been riding creatures your whole life, and it feels natural. Yo ucan roll an additional Attribuet die on any roll to ride or steer a mounted creature.
+    desc: You have been riding creatures your whole life, and it feels natural. Yo ucan roll an additional Attribute die on any roll to ride or steer a mounted creature.
   - name: Born to Drive
     desc: Steering coaches, trains, and boats comes naturally to you. You can roll an additional Attribuet die to steer or pilot a vehicle.
   - name: Brawler
-    desc: Your unarmed blows deal wounds.
-  - name: Bullseye
+    desc: You've learned how to make the best of bar fights. You may add an additional attribute die on special attacks whether they be melee or ranged.
+  - name: Crackshot
     desc: Your shots rarely miss their mark. When making a ranged attack with an action pool die of a 4 or higher, you can ignore cover.
   - name: Catabank
     desc: You have a golden voice, a knack for memorizing lines, and the wit to back it up. You can roll an additional Attribute die when you are performing in front of crowds.
@@ -32,13 +32,13 @@ traits:
   - name: Devoted to the Cause
     desc: You fervently support a cause or goal. When performing an action in line with your calling, you can choose to re-roll any party action die rather than taking the face value and use either value.
   - name: Faith Leader
-    desc: You have a strong faith in a higher power. When ddealing with people in topics and matters of belief, you may roll an additional attribute die.
+    desc: You have a strong faith in a higher power. When dealing with people in topics and matters of belief, you may roll an additional attribute die.
   - name: Fast Healer
     desc: You seem to get up and about more quickly than others when wounded. Maybe that explains why you're always hungry. When you heal, you can roll the Attribute die an additional time.
   - name: Fast on your Feet
     desc: You are a natural sprinter. If you take a move action on a round and you haven't yet taken any other action, you may double your movement distance.
   - name: Focused Hunter
-    desc: You are exceptionallry good at hunting and tracking a particular kind of creature. Choose a creatuer. You may add an additional attribuet die to any knowledge or interaction actions with or about them (including attacks, stalking, tracking, etc).
+    desc: You are exceptionally good at hunting and tracking a particular kind of creature. Choose a creature. You may add an additional attribuet die to any knowledge or interaction actions with or about them (including attacks, stalking, tracking, etc).
   - name: Formidable Presence
     desc: You project an aura of authority and fear. You can add an additional attribute die on intimidation attempts.
   - name: Guardian
@@ -129,10 +129,8 @@ traits:
     desc: You can add an additional attribute die to pick any mechanical lock with an action.
   - name: Dirty Fighting
     desc: There's no such thing as honor in combat. When you make a melee attack using an action die of 6,  you can throw dirt or pocket sand into the eyes of a target blinding them for the next round. 
-  - name: Demolition Man
+  - name: Grenadier
     desc: You've been blowing things up all your life. When you roll for explosives, you can add an additional Attribute die.
-  - name: Ace Dogfighter
-    desc: While firing ranged weapons on a vehiclre, you may attack twice for every attack action.
   - name: Steam Piston Power
     desc: When piloting a mechsuit, you know exactly how much pressure can be built up before explosive decompression. You can roll an additional Attribute die when you make a Steam roll.
   - name: Rickshaw Tinkerer

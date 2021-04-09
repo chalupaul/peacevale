@@ -10,21 +10,8 @@ import Grid from '@material-ui/core/Grid';
 import { Header, Footer } from '../components/PageBasics';
 
 
-export default function ShieldShop() {
+export default function ShieldShop({ items }) {
     const classes = useStyles();
-
-    const [items, setItems] = React.useState();
-
-    usePoller(() => {
-        (async () => {
-            try {
-                const items = await getItems();;
-                setItems(items);
-            } catch (err) {
-                console.log(err);
-            }
-        })();
-    }, 30000);
 
     return (
         <React.Fragment>
@@ -38,7 +25,7 @@ export default function ShieldShop() {
                 <Container className={classes.cardGrid} maxWidth="lg">
                     {/* End hero unit */}
                     <Grid container spacing={4}>
-                        {items && items.shields.sort(sortItemsByName).map((shield) => (
+                        {items.shields && items.shields.sort(sortItemsByName).map((shield) => (
                             <ShieldCard shield={shield} />
                         ))}
                     </Grid>

@@ -362,7 +362,7 @@ mechsuits:
     keywords:
       - steam
     abilities:
-      - "You can deploy a small golden raptor drone to survey an area aerially as a special action. It has the following profile: Might: d4 Speed: d8 mind: d4 soul: d4. It can stay within radio range of your suit for up to around a mile"
+      - "You can deploy a small golden raptor drone to survey an area aerially as a special action. It has the following profile: Might: d4 Speed: d8 mind: d4. It can stay within radio range of your suit for up to around a mile"
   - name: Nemo Suit
     cost: 320
     defense: 4
@@ -381,3 +381,64 @@ mechsuits:
       - steam
     abilities:
       - Movement while not flying is halved. Can fly and move freely in the air (though cannot hover) using collapsable spring loaded rigid wings and back mounted turbine engine.
+sundries:
+    - name: Doctor's Travel Bag
+      cost: 80
+      desc: A set of vials full of tinctures and salves used to cure sickness and poison from people. You make an Intellect roll against the difficulty of the sickness or poison (the GM will tell you the score). Each person can be cured only once in this fashion per adventure.
+    - name: Tent
+      cost: 40
+      desc: A tent that up to 2 people can sleep in. Includes bedrolls.
+    - name: Mess Kit
+      cost: 40
+      desc: A meal kit, that allows you to prepare meals for your party. It comes with enough provisions for 4 people for any adventure, and you can stretch it more or less depending on the number of people you have.
+    - name: Lockpicking Set
+      cost: 60
+      desc: A kit that allows you to pick locks.
+    - name: Lantern
+      cost: 20
+      desc: A metal box with an oil wick inside. Allows you to cast light in a direction. The metal box can be lifted to flood light in all directions.
+    - name: Compass
+      cost: 20
+      desc: You no longer get lost.
+    - name: Rope and Pulleys
+      cost: 40
+      desc: allows you to lift great things. Also includes several hundred feet of sturdy rope. Also contains a grappling hook and a harness for hoisting.
+    - name: Toolbag
+      cost: 80
+      desc: Contains an assortment of wires, springs, gears, pistons, a pocket welder, and other materials necessary for repairing and fabrication of mechanical apparatus.
+    - name: Portable Alchemist's Lab
+      cost: 110
+      desc: A collection of burners, vials, detectors, condensers, agitants, and activants. This allows you to sample extracts and determine material information about strange items or substances you encounter.
+    - name: Travel Journal
+      cost: 10
+      desc: A book and colored pens to write your discoveries and travels and draw your observations.
+    - name: Reliquary
+      cost: 120
+      desc: A storage chamber for the containment of relics, allowing for safe transportation of artifacts.
+    - name: Camera and Flash
+      cost: 80
+      desc: A new invention just hitting the streets! This is a large camera on 3 wooden legs that takes pictures. 
+    - name: Breathe Tank
+      cost: 60
+      desc: A tank of air and a facemask that allows the wearer to breathe for 8 out of combat rounds even in an environment with no breathable air. Breathing through this in combat can be done without cost, but taking a grievous wound reduces the remaining breath by 1d4 rounds.
+    - name: Handvac Extractor
+      cost: 100
+      desc: A small handvac that can extract minerals and Aethercrystal from a vein. It deposits the material into a small attached bag at the back of the unit.
+    - name: Bullets
+      cost: 25
+      desc: A box of 20 bullets. Amazingly, they will fit any fire arm.
+    - name: Repair Parts
+      cost: 10
+      desc: Required to repair wounds and armor plates of mechanized creatures. Each part can repair either 1 wound or 1 plate.
+    - name: Bear Trap
+      cost: 10
+      desc: A trap capable of catching critters or otherwise. 
+    - name: Rations
+      cost: 40
+      desc: Sufficient foodstuffs for 4 people for an adventure.
+    - name: Aetherfuel
+      cost: 200
+      desc: Catalyzed liquid Aether that can refuel mechs and airships.
+    - name: Telescope
+      cost: 60
+      desc: Allows you to view far away places up close.
