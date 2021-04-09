@@ -36,16 +36,13 @@ export const Relics = () => {
 
     const [relics, setRelics] = React.useState();
 
-    usePoller(() => {
+    React.useEffect(() => {
         (async () => {
-            try {
-                const relics = await getRelics();;
-                setRelics(relics);
-            } catch (err) {
-                console.log(err);
-            }
+            const fetched = await getRelics();
+            setRelics(fetched.relics);
         })();
-    }, 30000);
+    }, []);
+
 
     return (
         <React.Fragment>
@@ -66,7 +63,7 @@ export const Relics = () => {
                 <Container className={classes.cardGrid} maxWidth="lg">
                     {/* End hero unit */}
                     <Grid container spacing={4}>
-                        {relics && relics.relics.sort(sortItemsByName).map((relic) => (
+                        {relics && relics.sort(sortItemsByName).map((relic) => (
                             <RelicCard relic={relic} />
                         ))}
                     </Grid>

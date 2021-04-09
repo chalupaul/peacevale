@@ -36,16 +36,12 @@ export const Traits = () => {
 
     const [traits, setTraits] = React.useState();
 
-    usePoller(() => {
+    React.useEffect(() => {
         (async () => {
-            try {
-                const traits = await getTraits();;
-                setTraits(traits);
-            } catch (err) {
-                console.log(err);
-            }
+            const fetched = await getTraits();
+            setTraits(fetched.traits);
         })();
-    }, 30000);
+    }, []);
 
     return (
         <React.Fragment>
@@ -66,7 +62,7 @@ export const Traits = () => {
                 <Container className={classes.cardGrid} maxWidth="lg">
                     {/* End hero unit */}
                     <Grid container spacing={4}>
-                        {traits && traits.traits.sort(sortItemsByName).map((trait) => (
+                        {traits && traits.sort(sortItemsByName).map((trait) => (
                             <TraitCard trait={trait} />
                         ))}
                     </Grid>

@@ -28,6 +28,10 @@ Resources:
       DistributionConfig:
         Aliases: 
           - peacevale.rpg.chalupaul.com
+        CustomErrorResponses:
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
         Origins:
           - DomainName: !Select [2, !Split ["/", !GetAtt S3Bucket.WebsiteURL]]
             Id: S3Origin
