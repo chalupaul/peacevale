@@ -50,7 +50,7 @@ Resources:
               Forward: none
           ViewerProtocolPolicy: allow-all
         ViewerCertificate:
-          AcmCertificateArn: !Ref CertificateManagerCertificate
+          AcmCertificateArn: arn:aws:acm:us-east-1:905590892698:certificate/472d0151-97ad-43a2-a060-e9f88f2dc2a7
           MinimumProtocolVersion: TLSv1.1_2016
           SslSupportMethod: sni-only
   Route53RecordSetGroup:
@@ -64,9 +64,4 @@ Resources:
           DNSName: !GetAtt CloudFrontDistro.DomainName
           EvaluateTargetHealth: false
         HostedZoneId: Z01554673UC7WST1TADVK
-  CertificateManagerCertificate:
-    Type: AWS::CertificateManager::Certificate
-    Properties:
-      DomainName: peacevale.rpg.chalupaul.com
-      ValidationMethod: DNS
   
