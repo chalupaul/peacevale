@@ -64,5 +64,6 @@ Resources:
         AliasTarget:
           DNSName: !GetAtt CloudFrontDistro.DomainName
           EvaluateTargetHealth: false
+          HostedZoneId: Z2FDTNDATAQYW2
           
   
