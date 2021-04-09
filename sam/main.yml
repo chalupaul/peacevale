@@ -63,5 +63,5 @@ Resources:
         AliasTarget:
           DNSName: !GetAtt CloudFrontDistro.DomainName
           EvaluateTargetHealth: false
-        HostedZoneId: Z01554673UC7WST1TADVK
+          HostedZoneId: Z01554673UC7WST1TADVK
   
