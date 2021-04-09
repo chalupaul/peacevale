@@ -4,9 +4,9 @@ relics:
   - name: Grappling Belt
     desc: Pick a square that is visible to you within 10 squares and does not have any creature in it. Immediately move your character to that square.
   - name: Spider Trap
-    desc: YPou gain 3 tokens, one of which represents a trap and the other 2 are decoys. The real trap is a small autonomous spider that attacks the first creature to step on the square it is in, stunning the creature for the rest of the round and makingf the creature Stuck. The creature can spend an action to succeed on a Might roll against half your maximum Mind attribute roll to free itself. You may deploy your tokens when you roll for Initiative to an unoccupied squares within 10 squares of your character. Interacting with a decoy reveals it as false or true, and you can at any time choose which one is real. Once a decoy is revealed it is destroyed.
+    desc: You gain 3 tokens, one of which represents a trap and the other 2 are decoys. The real trap is a small autonomous spider that attacks the first creature to step on the square it is in, stunning the creature for the rest of the round and makingf the creature Stuck. The creature can spend an action to succeed on a Might roll against half your maximum Mind attribute roll to free itself. You may deploy your tokens when you roll for Initiative to an unoccupied squares within 10 squares of your character. Interacting with a decoy reveals it as false or true, and you can at any time choose which one is real. Once a decoy is revealed it is destroyed.
   - name: Steam Power Glove
-    desc: "A weapon attack that has the following profile. 5-6: Attack. Steam. Attacks deal grievous wounds. This weapon can be used by mech suits."
+    desc: "A weapon attack that has the following profile. 5-6: Attack, Two-Handed, Steam. Attacks deal grievous wounds. This weapon can be used by mech suits."
   - name: Chameleon Cloak
     desc: As an Action, you can don the coat, Hostile actions cannot target you other than those originating from adjacent enemies. If you take a hostile action, the cloak reveals your location.
   - name: Aethercrystal Phase Propagator
@@ -44,7 +44,7 @@ relics:
   - name: Bitter Boots
     desc: If swallowed by a creature, you can make a special action to click your heels together. You will roll Intelligence against half the target's Might. If successful, the foul taste coming off your boots is too much for the creature and it immediately expels you.
   - name: Dragonsword
-    desc: "A finely crafted sword with an aetherbone sculpted dragon on the hilt. This sword functions as a Cutlass that you can additionally choose the following action: 6: AOE. Roll Mind compared against half of target's maximum speed roll. All creatures within 3 squares of your front facing take a wound and are inflicted by hurt (Fire)."
+    desc: "A finely crafted sword with mechanical sculpted dragon whos mouth opens to shoot fire. This sword functions as a Cutlass that you can additionally choose the following action: 6: AOE. Roll Mind compared against half of target's maximum speed roll. All creatures within 3 squares of your front facing take a wound and are inflicted by hurt (Fire)."
   - name: Folding Bicycle
     desc: A small neclace with a blue button in the center. If pressed and held for 3 seconds, the neclace begins to unfold impossibly larger than it is and takes the form of a tandem bicycle.
   - name: Snowglobe Sancuary
@@ -134,7 +134,7 @@ relics:
   - name: Vanguard Treads
     desc: You can move through difficult terrain as though it were normal, and you do not slip on slippery surfaces.
   - name: Veil of Allure
-    desc: You can make a special action to roll a Mind roll against half the target's maximum Mind roll to cause a creature to immediately walk towards you. The target does not use an action to do so.
+    desc: You can make a special action to roll a Soul roll against half the target's maximum Mind roll to cause a creature to immediately walk towards you. The target does not use an action to do so.
   - name: Banner of the Maelstrom
     desc: An old and tattered flag with a set of curling lines drawn around it. As long as this banner is raised, all creatures below are immune to the effects of Terrorized, but lose 1d4 sanity every round.
   - name: Cognizance Compass
@@ -146,7 +146,7 @@ relics:
   - name: Mapcase of Unseen Secrets
     desc: A mapcase stuffed with maps. If you spend an hour looking through the maps, you can determine the location of a hidden door in the area you wish to seek.
   - name: Mirror of Suggestion
-    desc: When you use an Action to activate the mirror, you can suggest a creature who can see the surface of the mirror to do something. You make a Mind roll against half the target's maximum Mind roll, compleling them to do what you suggest. They won't willingly harm themselves but will otherwise carry out your actions happily. This lasts until the end of the Adventure.
+    desc: When you use an Action to activate the mirror, you can suggest a creature who can see the surface of the mirror to do something. You make a Soul roll against half the target's maximum Mind roll, compleling them to do what you suggest. They won't willingly harm themselves but will otherwise carry out your actions happily. This lasts until the end of the Adventure.
   - name: Mirror of Time Hop
     desc: Once per adventure you can spend an Action point to look into this mirror and go back in time to the previous round, spending action points this round as though you had spent them last round. Some events are too complex to unwind, but many times you can otherwise undo effects you did not forsee.
   - name: Orb of Blinding
@@ -166,4 +166,4 @@ relics:
   - name: Scepter of the Watching Master
     desc: A large pale yellow eye resembling that of a goat is atop the head of this mace watches the world as you travel. You can roll an additional Attribute die for Initiative.
   - name: Raptor Mask
-    desc: A golden bird head's mask with red gemmed eyes. Though a bit ostentatious, you can roll an additional Attribute die on all Mind rolls. 
+    desc: A golden bird head's mask with red gemmed eyes. Though a bit ostentatious, you can roll an additional Attribute die on all Soul rolls. 

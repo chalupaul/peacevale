@@ -1,6 +1,5 @@
 import React from 'react';
-import { getItems, sortItemsByName } from '../data/Items';
-import { usePoller } from '../data/poller';
+import { sortItemsByName } from '../data/Items';
 import { ShieldCard } from './components/ShieldCard';
 import { useStyles } from '../components/Styler';
 import { ButtonSelector } from '../components/ButtonSelector';
