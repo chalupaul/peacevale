@@ -65,8 +65,8 @@ Resources:
           EvaluateTargetHealth: false
         HostedZoneId: Z01554673UC7WST1TADVK
   CertificateManagerCertificate:
-  Type: AWS::CertificateManager::Certificate
-  Properties:
-    DomainName: peacevale.rpg.chalupaul.com
-    ValidationMethod: DNS
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: peacevale.rpg.chalupaul.com
+      ValidationMethod: DNS
   
