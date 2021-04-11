@@ -381,6 +381,46 @@ mechsuits:
       - steam
     abilities:
       - Movement while not flying is halved. Can fly and move freely in the air (though cannot hover) using collapsable spring loaded rigid wings and back mounted turbine engine.
+automatons:
+  - name: Automaton Central Core
+    cost: 100
+    ability: Provides an automaton with 2 Action Points and 1 Armor Plate. You can equip 1 module to this Automaton.
+  - name: Aiming Cortex
+    cost: 80
+    ability: Allows the Automaton to equip a ranged weapon.
+  - name: Mobile Platform
+    cost: 60
+    ability: Allows the Automaton to move with Speed 4
+  - name: Medical drone
+    cost: 80
+    ability: Automaton gains the First Aid trait.
+  - name: Generator
+    cost: 60
+    ability: Provides power for 2 additional modules
+  - name: Shield Battery
+    cost: 80
+    ability: Emits a shield in its current square and 1 immediately to the left and right providing cover.
+  - name: Tesla Tower
+    cost: 100
+    ability: Emits an electrical arc towards the first enemy within 6 squares causing Shocked once per round.
+  - name: Reinforced Struts
+    cost: 80
+    ability: Adds 1 armor plate to the Automaton
+  - name: Articulated Robotic Arm
+    cost: 80
+    ability: Equips a Steam Power Glove on the Automaton
+  - name: Radio Detection Dish
+    cost: 100
+    ability: Allows the Automaton to see invisible creatures
+  - name: Dipole Antena
+    cost: 80
+    ability: Doubles the range that the turret will recieve commands
+  - name: Loader Pack
+    cost: 60
+    ability: Allows the Automaton to carry up to 8 items. The pack is shielded and will survive damage if the Automaton is wrecked.
+  - name: 8-Way Gearshift
+    cost: 100
+    ability: The Automaton gains 2 additional Action Points
 sundries:
     - name: Doctor's Travel Bag
       cost: 80

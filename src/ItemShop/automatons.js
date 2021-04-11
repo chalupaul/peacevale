@@ -1,6 +1,6 @@
 import React from 'react';
 import { sortItemsByName } from '../data/Items';
-import { ArmorCard } from './components/ArmorCard';
+import { AutomatonCard } from './components/AutomatonCard';
 import { useStyles } from '../components/Styler';
 import { ButtonSelector } from './components/ButtonSelector';
 import Container from '@material-ui/core/Container';
@@ -9,7 +9,7 @@ import Grid from '@material-ui/core/Grid';
 import { Header, Footer } from '../components/PageBasics';
 
 
-export default function ArmorShop({ items }) {
+export default function AutomatonsShop({ items }) {
     const classes = useStyles();
 
     return (
@@ -19,13 +19,13 @@ export default function ArmorShop({ items }) {
             <main>
                 {/* Hero unit */}
                 <div className={classes.heroContent}>
-                    <ButtonSelector selected="armor" />
+                    <ButtonSelector selected="automatons" />
                 </div>
                 <Container className={classes.cardGrid} maxWidth="lg">
                     {/* End hero unit */}
                     <Grid container spacing={4}>
-                        {items.armor && items.armor.sort(sortItemsByName).map((armor) => (
-                            <ArmorCard armor={armor} />
+                        {items.automatons && items.automatons.sort(sortItemsByName).map((automaton) => (
+                            <AutomatonCard automaton={automaton} />
                         ))}
                     </Grid>
                 </Container>

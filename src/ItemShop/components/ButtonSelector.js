@@ -3,8 +3,8 @@ import { useHistory } from "react-router-dom";
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import { useStyles } from './Styler';
-import { config } from '../data/config';
+import { useStyles } from '../../components/Styler';
+import { config } from '../../data/config';
 
 const isSelected = (search, button) => {
     return (search === button) ? "contained" : "outlined"
@@ -28,9 +28,9 @@ const ButtonMaker = ({ input, fieldName }) => {
 
 export const ButtonSelector = ({ selected }) => {
     const classes = useStyles();
-    const buttonTypes = ["weapons", "armor", "shields", "mechsuits", "sundries"];
+    const buttonTypes = ["weapons", "armor", "shields", "mechsuits", "automatons", "sundries"];
     return (
-        <Container maxWidth="sm">
+        <Container maxWidth="lg">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
                 {config.shopName}
             </Typography>

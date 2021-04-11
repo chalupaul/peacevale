@@ -2,7 +2,7 @@ import React from 'react';
 import { sortItemsByName } from '../data/Items';
 import { WeaponCard } from './components/WeaponCard';
 import { useStyles } from '../components/Styler';
-import { ButtonSelector } from '../components/ButtonSelector';
+import { ButtonSelector } from './components/ButtonSelector';
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';

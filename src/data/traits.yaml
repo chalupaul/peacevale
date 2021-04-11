@@ -4,7 +4,7 @@ traits:
   - name: Alternate Identity
     desc: Somewhere, you have another identity. Perhaps it's the original "you" that you abandoned, or perhaps you really look like somebody that others find familiar. Only your closest friends and family know the truth.
   - name: Animal Empathy
-    desc: You have always had a way with critters. You have an intuition about how they act, what they want, and how they behave. When rolling to soothe or influence animals using an action pool die of a 5 or higher, you can ask simple yes/no questions and the animal will reply.
+    desc: You have always had a way with critters. You have an intuition about how they act, what they want, and how they behave. When rolling Soul to soothe or influence animals using an action pool die of a 5 or higher, you can ask simple yes/no questions and the animal will reply.
   - name: Antiquarian
     desc: You have a knack for knowing the origin and value of antiques and antiquities. You can roll an additional Attribuet die to determine the historical significance or value of an object.
   - name: Attuned to Nature

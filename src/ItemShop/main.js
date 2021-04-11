@@ -30,6 +30,10 @@ export const ItemShop = props => {
         fallback: <Loader />
     });
 
+    const AutomatonShop = loadable(() => import('./automatons'), {
+        fallback: <Loader />
+    });
+
     const SundriesShop = loadable(() => import('./sundries'), {
         fallback: <Loader />
     });
@@ -43,6 +47,8 @@ export const ItemShop = props => {
             return <ShieldShop items={items} />;
         case "mechsuits":
             return <MechSuitShop items={items} />;
+        case "automatons":
+            return <AutomatonShop items={items} />;
         case "sundries":
             return <SundriesShop items={items} />;
         default:
