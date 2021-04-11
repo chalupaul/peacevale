@@ -390,7 +390,10 @@ automatons:
     ability: Allows the Automaton to equip a ranged weapon.
   - name: Mobile Platform
     cost: 60
-    ability: Allows the Automaton to move with Speed 4
+    ability: Allows the Automaton to move with Speed 6.
+  - name: Jet Propulsion System
+    cost: 100
+    ability: Allows the Automaton to fly, hover, and propel underwater.
   - name: Medical drone
     cost: 80
     ability: Automaton gains the First Aid trait.
