@@ -6,6 +6,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { useStyles } from './components/Styler';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import { config } from './data/config';
 
 export const Rules = () => {
     const classes = useStyles();
@@ -23,7 +24,7 @@ export const Rules = () => {
                             For the game of Peacevale.
                         </Typography>
                         <Typography variant="h7" align="center" color="textSecondary" paragraph>
-                            <Link href="https://docs.google.com/document/d/e/2PACX-1vQBNUujm0QSXCyZxCfl8okqkYxTS9Fa5jCqLg-gcdDE2oaHcEiZ2k8Pkc_ywzXYuZx47dsk4u0hbGsm/pub">
+                            <Link href={config.rulesUrl}>
                                 Click here for a printable link.
                             </Link>
                         </Typography>
@@ -31,7 +32,7 @@ export const Rules = () => {
                 </div>
                 <Container className={classes.cardGrid} maxWidth="md">
                     {/* Hero unit */}
-                    <CardMedia className={classes.Rules} component="iframe" src="https://docs.google.com/document/d/e/2PACX-1vQBNUujm0QSXCyZxCfl8okqkYxTS9Fa5jCqLg-gcdDE2oaHcEiZ2k8Pkc_ywzXYuZx47dsk4u0hbGsm/pub?embedded=true" />
+                    <CardMedia className={classes.Rules} component="iframe" src={config.rulesEmbedUrl} />
                 </Container>
             </main>
             {/* Footer */}
