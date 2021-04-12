@@ -58,6 +58,13 @@ export const Header = () => {
                         >
                             <ListItemText primary="Relics" />
                         </ListItem>
+                        <ListItem
+                            button
+                            onClick={() => history.push("/chargen")}
+                            className={classes.navLinkText}
+                        >
+                            <ListItemText primary="Character Generator" />
+                        </ListItem>
                     </List>
                 </Container>
             </Toolbar>
