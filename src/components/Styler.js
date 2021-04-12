@@ -54,6 +54,9 @@ export const useStyles = makeStyles((theme) => ({
         color: `white`,
         whiteSpace: 'nowrap',
     },
+    CharGen: {
+        paddingBottom: theme.spacing(6),
+    },
     footer: {
         backgroundColor: theme.palette.background.paper,
         padding: theme.spacing(6),

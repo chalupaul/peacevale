@@ -384,7 +384,7 @@ mechsuits:
 automatons:
   - name: Automaton Central Core
     cost: 100
-    ability: Provides an automaton with 1 Action Points and 1 Armor Plate. You can equip 1 module to this Automaton.
+    ability: Provides a Small sized automaton with 1 Action Points and 1 Armor Plate. You can equip 1 module to this Automaton.
   - name: Aiming Cortex
     cost: 80
     ability: Allows the Automaton to equip a ranged weapon.

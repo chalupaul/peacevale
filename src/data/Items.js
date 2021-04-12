@@ -34,4 +34,13 @@ export const toUpperCaseSentence = (words) => {
     return words.map((w) => { return w[0].toUpperCase() + w.substr(1); })
 };
 
+export const getRandom = (data, numElements) => {
+    const result = [];
+    for (let i = 0; i < numElements; i++) {
+        const entry = data[Math.floor((Math.random() * data.length))];
+        result.push(entry);
+    }
+    return result;
+};
+
 export const nbsp = '\u00A0';
