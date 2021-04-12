@@ -54,6 +54,11 @@ export const useStyles = makeStyles((theme) => ({
         color: `white`,
         whiteSpace: 'nowrap',
     },
+    Rules: {
+        minHeight: "800px",
+        display: 'flex',
+        flexDirection: 'column',
+    },
     CharGen: {
         paddingBottom: theme.spacing(6),
     },

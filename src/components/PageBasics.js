@@ -31,8 +31,7 @@ export const Header = () => {
                     >
                         <ListItem
                             button
-                            component="a"
-                            href={config.rulesUrl}
+                            onClick={() => history.push("/rules")}
                             className={classes.navLinkText}
                         >
                             <ListItemText primary="Rules" />

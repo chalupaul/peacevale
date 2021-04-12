@@ -6,7 +6,7 @@ import { WelcomePage } from './Welcome';
 import { Traits } from './Traits';
 import { Relics } from './Relics';
 import { Chargen } from './Chargen';
-
+import { Rules } from './Rules';
 
 export const App = () => {
   return (
@@ -16,6 +16,7 @@ export const App = () => {
       <Route path="/traits" component={Traits} />
       <Route path="/relics" component={Relics} />
       <Route path="/chargen" component={Chargen} />
+      <Route path="/rules" component={Rules} />
       <Redirect from="/items" to="/items/weapons" />
     </Switch>
   )
