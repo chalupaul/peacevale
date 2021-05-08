@@ -14,27 +14,27 @@ export const ItemShop = props => {
         })();
     }, []);
 
-    const WeaponShop = loadable(() => import('./weapons'), {
+    const WeaponShop = loadable(() => import(/* webpackPrefetch: true */ './weapons'), {
         fallback: <Loader />,
     });
 
-    const ArmorShop = loadable(() => import('./armor'), {
+    const ArmorShop = loadable(() => import(/* webpackPrefetch: true */ './armor'), {
         fallback: <Loader />
     });
 
-    const ShieldShop = loadable(() => import('./shields'), {
+    const ShieldShop = loadable(() => import(/* webpackPrefetch: true */ './shields'), {
         fallback: <Loader />
     });
 
-    const MechSuitShop = loadable(() => import('./mechsuits'), {
+    const MechSuitShop = loadable(() => import(/* webpackPrefetch: true */ './mechsuits'), {
         fallback: <Loader />
     });
 
-    const AutomatonShop = loadable(() => import('./automatons'), {
+    const AutomatonShop = loadable(() => import(/* webpackPrefetch: true */ './automatons'), {
         fallback: <Loader />
     });
 
-    const SundriesShop = loadable(() => import('./sundries'), {
+    const SundriesShop = loadable(() => import(/* webpackPrefetch: true */ './sundries'), {
         fallback: <Loader />
     });
 
